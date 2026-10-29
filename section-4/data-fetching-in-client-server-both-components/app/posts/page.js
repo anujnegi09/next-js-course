@@ -1,4 +1,8 @@
 "use client"
+
+// client side fetching
+
+
 import {useEffect, useState} from "react";
 export default function posts(){
   const [posts,setPosts] = useState([])
@@ -24,3 +28,5 @@ export default function posts(){
     </>
   )
 }
+
+
